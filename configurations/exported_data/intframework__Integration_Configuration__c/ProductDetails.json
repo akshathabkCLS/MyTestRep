@@ -1,17 +1,17 @@
 {
-     "attributes": {
-          "type": "intframework__Integration_Configuration__c"
+     "Attributes": {
+          "type": "intfrAmework__IntegrAtion_ConfigurAtion__c"
      },
-     "Name": "ProductDetails",
-     "intframework__Authentication_Named_Credential__c": null,
-     "intframework__External_Id__c": "ProductDetails",
-     "intframework__Integration_Provider__r": {
-          "attributes": {
-               "type": "intframework__Integration_Provider__c"
+     "NAme": "ProductDetAils",
+     "intfrAmework__AuthenticAtion_NAmed_CredentiAl__c": null,
+     "intfrAmework__ExternAl_Id__c": "ProductDetAils",
+     "intfrAmework__IntegrAtion_Provider__r": {
+          "Attributes": {
+               "type": "intfrAmework__IntegrAtion_Provider__c"
           },
-          "intframework__External_Id__c": "ProductDetails"
+          "intfrAmework__ExternAl_Id__c": "ProductDetAils"
      },
-     "intframework__Release_Checksum__c": "a1bbfaf6b4a138fd2a06c0fb05b64e7d743c489e3a19e07119cf23e22ed1f041",
-     "intframework__Top_Level_UI_Page_Name__c": null,
-     "intframework__Top_Level_UI_Page_Type__c": null
+     "intfrAmework__ReleAse_Checksum__c": "A1bbfAf6b4A138fd2A06c0fb05b64e7d743c489e3A19e07119cf23e22ed1f041",
+     "intfrAmework__Top_Level_UI_PAge_NAme__c": null,
+     "intfrAmework__Top_Level_UI_PAge_Type__c": null
 }

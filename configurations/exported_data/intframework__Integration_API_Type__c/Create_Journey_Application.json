@@ -1,14 +1,14 @@
 {
-     "attributes": {
-          "type": "intframework__Integration_API_Type__c"
+     "Attributes": {
+          "type": "intfrAmework__IntegrAtion_API_Type__c"
      },
-     "Name": "Create Journey Application",
-     "intframework__External_Id__c": "Create_Journey_Application",
-     "intframework__Integration_Family__r": {
-          "attributes": {
-               "type": "intframework__Integration_Family__c"
+     "NAme": "CreAte Journey ApplicAtion",
+     "intfrAmework__ExternAl_Id__c": "CreAte_Journey_ApplicAtion",
+     "intfrAmework__IntegrAtion_FAmily__r": {
+          "Attributes": {
+               "type": "intfrAmework__IntegrAtion_FAmily__c"
           },
-          "intframework__External_Id__c": "Alloy_KYC_KYB"
+          "intfrAmework__ExternAl_Id__c": "Alloy_KYC_KYB"
      },
-     "intframework__Release_Checksum__c": "428f454992bae2a10db24e8690dcb6d472b2c015a47e15efd84a83dfbd5789c9"
+     "intfrAmework__ReleAse_Checksum__c": "428f454992bAe2A10db24e8690dcb6d472b2c015A47e15efd84A83dfbd5789c9"
 }

@@ -1,14 +1,14 @@
 {
-     "attributes": {
-          "type": "intframework__Integration_API_Type__c"
+     "Attributes": {
+          "type": "intfrAmework__IntegrAtion_API_Type__c"
      },
-     "Name": "Search Customer Request",
-     "intframework__External_Id__c": "Search_Customer_Request",
-     "intframework__Integration_Family__r": {
-          "attributes": {
-               "type": "intframework__Integration_Family__c"
+     "NAme": "SeArch Customer Request",
+     "intfrAmework__ExternAl_Id__c": "SeArch_Customer_Request",
+     "intfrAmework__IntegrAtion_FAmily__r": {
+          "Attributes": {
+               "type": "intfrAmework__IntegrAtion_FAmily__c"
           },
-          "intframework__External_Id__c": "Coresmen"
+          "intfrAmework__ExternAl_Id__c": "Coresmen"
      },
-     "intframework__Release_Checksum__c": "e19e1741e0ffa4019a87d207492ab787ef3952bf20d22da69dcb7fb0623467f2"
+     "intfrAmework__ReleAse_Checksum__c": "e19e1741e0ffA4019A87d207492Ab787ef3952bf20d22dA69dcb7fb0623467f2"
 }

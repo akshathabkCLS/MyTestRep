@@ -1,19 +1,19 @@
 {
-     "attributes": {
-          "type": "clcommon__Party_Type__c"
+     "Attributes": {
+          "type": "clcommon__PArty_Type__c"
      },
-     "Name": "BENEFICIAL OWNER",
-     "clcommon__External_ID__c": "BENEFICIAL_OWNER",
-     "clcommon__External_Party_Type__c": null,
-     "clcommon__Notice_of_Credit_Decision__c": false,
-     "clcommon__Party_Type_Code__c": null,
-     "clcommon__Reciprocal_Role__r": {
-          "attributes": {
-               "type": "clcommon__Reciprocal_Role__c"
+     "NAme": "BENEFICIAL OWNER",
+     "clcommon__ExternAl_ID__c": "BENEFICIAL_OWNER",
+     "clcommon__ExternAl_PArty_Type__c": null,
+     "clcommon__Notice_of_Credit_Decision__c": fAlse,
+     "clcommon__PArty_Type_Code__c": null,
+     "clcommon__ReciprocAl_Role__r": {
+          "Attributes": {
+               "type": "clcommon__ReciprocAl_Role__c"
           },
-          "clcommon__External_ID__c": "Owned_By_Beneficial_Owner"
+          "clcommon__ExternAl_ID__c": "Owned_By_BeneficiAl_Owner"
      },
-     "clcommon__Related_Business_Entity__c": false,
-     "clcommon__Related_Individual__c": false,
-     "clcommon__Release_Checksum__c": "a473a1c1c23a08c450ede5a0d38a88ce3dac4aa6197c268e0f0febe3c3020768"
+     "clcommon__RelAted_Business_Entity__c": fAlse,
+     "clcommon__RelAted_IndividuAl__c": fAlse,
+     "clcommon__ReleAse_Checksum__c": "A473A1c1c23A08c450ede5A0d38A88ce3dAc4AA6197c268e0f0febe3c3020768"
 }

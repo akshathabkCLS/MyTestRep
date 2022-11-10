@@ -1,74 +1,74 @@
 {
-     "attributes": {
-          "type": "intframework__Integration_API_Configuration__c"
+     "Attributes": {
+          "type": "intfrAmework__IntegrAtion_API_ConfigurAtion__c"
      },
-     "Name": "LexisNexis Business InstantId KYB",
-     "intframework__API_Endpoint__c": "WsIdentity/BusinessInstantID2?ver_=2.60",
-     "intframework__API_Named_Credential__c": "LexisNexis",
-     "intframework__Adapter_Class_Name__c": "intadapter.LexisNexisBusinessInstantIdAdapter",
-     "intframework__Additional_Header_Parameters__c": null,
-     "intframework__Execution_Priority__c": 1,
-     "intframework__External_Id__c": "LexisNexis_Business_InstantId_KYB",
-     "intframework__File_Extension__c": null,
-     "intframework__File_Name_Prefix__c": null,
-     "intframework__Generate_File__c": false,
-     "intframework__HTTP_Content_Type__c": "text/xml",
-     "intframework__HTTP_Method__c": "POST",
-     "intframework__Integration_API_Type__r": {
-          "attributes": {
-               "type": "intframework__Integration_API_Type__c"
+     "NAme": "LexisNexis Business InstAntId KYB",
+     "intfrAmework__API_Endpoint__c": "WsIdentity/BusinessInstAntID2?ver_=2.60",
+     "intfrAmework__API_NAmed_CredentiAl__c": "LexisNexis",
+     "intfrAmework__AdApter_ClAss_NAme__c": "intAdApter.LexisNexisBusinessInstAntIdAdApter",
+     "intfrAmework__AdditionAl_HeAder_PArAmeters__c": null,
+     "intfrAmework__Execution_Priority__c": 1,
+     "intfrAmework__ExternAl_Id__c": "LexisNexis_Business_InstAntId_KYB",
+     "intfrAmework__File_Extension__c": null,
+     "intfrAmework__File_NAme_Prefix__c": null,
+     "intfrAmework__GenerAte_File__c": fAlse,
+     "intfrAmework__HTTP_Content_Type__c": "text/xml",
+     "intfrAmework__HTTP_Method__c": "POST",
+     "intfrAmework__IntegrAtion_API_Type__r": {
+          "Attributes": {
+               "type": "intfrAmework__IntegrAtion_API_Type__c"
           },
-          "intframework__External_Id__c": "Business_Instant_Id"
+          "intfrAmework__ExternAl_Id__c": "Business_InstAnt_Id"
      },
-     "intframework__Integration_Configuration__r": {
-          "attributes": {
-               "type": "intframework__Integration_Configuration__c"
+     "intfrAmework__IntegrAtion_ConfigurAtion__r": {
+          "Attributes": {
+               "type": "intfrAmework__IntegrAtion_ConfigurAtion__c"
           },
-          "intframework__External_Id__c": "LexisNexis_Configuration"
+          "intfrAmework__ExternAl_Id__c": "LexisNexis_ConfigurAtion"
      },
-     "intframework__Integration_Family__r": {
-          "attributes": {
-               "type": "intframework__Integration_Family__c"
+     "intfrAmework__IntegrAtion_FAmily__r": {
+          "Attributes": {
+               "type": "intfrAmework__IntegrAtion_FAmily__c"
           },
-          "intframework__External_Id__c": "KYB"
+          "intfrAmework__ExternAl_Id__c": "KYB"
      },
-     "intframework__Integration_Provider__r": {
-          "attributes": {
-               "type": "intframework__Integration_Provider__c"
+     "intfrAmework__IntegrAtion_Provider__r": {
+          "Attributes": {
+               "type": "intfrAmework__IntegrAtion_Provider__c"
           },
-          "intframework__External_Id__c": "LexisNexis"
+          "intfrAmework__ExternAl_Id__c": "LexisNexis"
      },
-     "intframework__Log_Filter__c": null,
-     "intframework__Log_Request_Response__c": false,
-     "intframework__Long_Running_Operation__c": false,
-     "intframework__Number_Of_Retries__c": 1,
-     "intframework__Release_Checksum__c": "0bbc87ddb4d0005918b38ff1401f57c61f639f89440eb70f96d8cbf60c1d33b7",
-     "intframework__Request_Mapping__c": {
-          "thirdPartySystem": {
-               "name": "LexisNexis Business InstantId",
-               "useRequestGenerator": true,
+     "intfrAmework__Log_Filter__c": null,
+     "intfrAmework__Log_Request_Response__c": fAlse,
+     "intfrAmework__Long_Running_OperAtion__c": fAlse,
+     "intfrAmework__Number_Of_Retries__c": 1,
+     "intfrAmework__ReleAse_Checksum__c": "0bbc87ddb4d0005918b38ff1401f57c61f639f89440eb70f96d8cbf60c1d33b7",
+     "intfrAmework__Request_MApping__c": {
+          "thirdPArtySystem": {
+               "nAme": "LexisNexis Business InstAntId",
+               "useRequestGenerAtor": true,
                "delimiter": "$$",
-               "dynamicDataParameters": [
+               "dynAmicDAtAPArAmeters": [
                     {
-                         "externalField": "useLNForAuthReps",
+                         "externAlField": "useLNForAuthReps",
                          "ignoreInRequest": true
                     }
                ],
                "XMLAttributes": [
                     {
-                         "XMLNode": "soap:Envelope",
-                         "parameters": [
+                         "XMLNode": "soAp:Envelope",
+                         "pArAmeters": [
                               {
-                                   "name": "xmlns:soap",
-                                   "value": "http://schemas.xmlsoap.org/soap/envelope/"
+                                   "nAme": "xmlns:soAp",
+                                   "vAlue": "http://schemAs.xmlsoAp.org/soAp/envelope/"
                               },
                               {
-                                   "name": "xmlns",
-                                   "value": "http://webservices.seisint.com/WsIdentity"
+                                   "nAme": "xmlns",
+                                   "vAlue": "http://webservices.seisint.com/WsIdentity"
                               },
                               {
-                                   "name": "xmlns:SOAP-ENC",
-                                   "value": "http://schemas.xmlsoap.org/soap/encoding/"
+                                   "nAme": "xmlns:SOAP-ENC",
+                                   "vAlue": "http://schemAs.xmlsoAp.org/soAp/encoding/"
                               }
                          ]
                     }
@@ -76,190 +76,190 @@
                "filters": [
                     {
                          "objectAPI": "Account",
-                         "objectAlias": "soap:Envelope$$soap:Body$$BusinessInstantID20Request",
+                         "objectAliAs": "soAp:Envelope$$soAp:Body$$BusinessInstAntID20Request",
                          "fields": [
                               {
-                                   "externalField": "SearchBy$$Company$$CompanyName",
-                                   "fieldAPI": "Name",
-                                   "isUrlParameter": "false",
-                                   "isMandatory": true
+                                   "externAlField": "SeArchBy$$CompAny$$CompAnyNAme",
+                                   "fieldAPI": "NAme",
+                                   "isUrlPArAmeter": "fAlse",
+                                   "isMAndAtory": true
                               },
                               {
-                                   "externalField": "SearchBy$$Company$$Phone",
+                                   "externAlField": "SeArchBy$$CompAny$$Phone",
                                    "fieldAPI": "Phone",
-                                   "isUrlParameter": "false"
+                                   "isUrlPArAmeter": "fAlse"
                               },
                               {
-                                   "externalField": "User$$QueryId",
+                                   "externAlField": "User$$QueryId",
                                    "fieldAPI": "Id",
-                                   "isUrlParameter": "false"
+                                   "isUrlPArAmeter": "fAlse"
                               },
                               {
-                                   "externalField": "SearchBy$$Company$$FEIN",
-                                   "fieldAPI": "genesis__Business_Information__r.genesis__Tax_Identification_Number__c",
-                                   "isUrlParameter": "false"
+                                   "externAlField": "SeArchBy$$CompAny$$FEIN",
+                                   "fieldAPI": "genesis__Business_InformAtion__r.genesis__TAx_IdentificAtion_Number__c",
+                                   "isUrlPArAmeter": "fAlse"
                               }
                          ],
-                         "whereClause": "Id = :accountId"
+                         "whereClAuse": "Id = :AccountId"
                     },
                     {
                          "objectAPI": "Account",
-                         "objectAlias": "soap:Envelope$$soap:Body$$BusinessInstantID20Request$$SearchBy$$Company$$Address",
-                         "orderBy": "CreatedDate Desc",
+                         "objectAliAs": "soAp:Envelope$$soAp:Body$$BusinessInstAntID20Request$$SeArchBy$$CompAny$$Address",
+                         "orderBy": "CreAtedDAte Desc",
                          "fields": [
                               {
-                                   "externalField": "StreetAddress1",
+                                   "externAlField": "StreetAddress1",
                                    "fieldAPI": "BillingStreet",
-                                   "isUrlParameter": "false",
-                                   "isMandatory": true
+                                   "isUrlPArAmeter": "fAlse",
+                                   "isMAndAtory": true
                               },
                               {
-                                   "externalField": "StreetAddress2",
-                                   "fieldAPI": "oao__Billing_Address_Second_Line__c",
-                                   "isUrlParameter": "false"
+                                   "externAlField": "StreetAddress2",
+                                   "fieldAPI": "oAo__Billing_Address_Second_Line__c",
+                                   "isUrlPArAmeter": "fAlse"
                               },
                               {
-                                   "externalField": "City",
+                                   "externAlField": "City",
                                    "fieldAPI": "BillingCity",
-                                   "isUrlParameter": "false",
-                                   "isMandatory": true
+                                   "isUrlPArAmeter": "fAlse",
+                                   "isMAndAtory": true
                               },
                               {
-                                   "externalField": "Country",
+                                   "externAlField": "Country",
                                    "fieldAPI": "BillingCountry",
-                                   "isUrlParameter": "false"
+                                   "isUrlPArAmeter": "fAlse"
                               },
                               {
-                                   "externalField": "StateProvince",
-                                   "fieldAPI": "BillingState",
-                                   "isUrlParameter": "false",
-                                   "isMandatory": true
+                                   "externAlField": "StAteProvince",
+                                   "fieldAPI": "BillingStAte",
+                                   "isUrlPArAmeter": "fAlse",
+                                   "isMAndAtory": true
                               },
                               {
-                                   "externalField": "Zip5",
-                                   "fieldAPI": "BillingPostalCode",
-                                   "isUrlParameter": "false",
-                                   "isMandatory": true
+                                   "externAlField": "Zip5",
+                                   "fieldAPI": "BillingPostAlCode",
+                                   "isUrlPArAmeter": "fAlse",
+                                   "isMAndAtory": true
                               }
                          ],
-                         "whereClause": "Id = :accountId"
+                         "whereClAuse": "Id = :AccountId"
                     }
                ],
-               "staticParameters": [
+               "stAticPArAmeters": [
                     {
-                         "externalField": "soap:Envelope$$soap:Body$$BusinessInstantID20Request$$Options$$OutputType",
-                         "value": "B"
+                         "externAlField": "soAp:Envelope$$soAp:Body$$BusinessInstAntID20Request$$Options$$OutputType",
+                         "vAlue": "B"
                     },
                     {
-                         "externalField": "soap:Envelope$$soap:Body$$BusinessInstantID20Request$$Options$$GlobalWatchlistThreshold",
-                         "value": 0.84
+                         "externAlField": "soAp:Envelope$$soAp:Body$$BusinessInstAntID20Request$$Options$$GlobAlWAtchlistThreshold",
+                         "vAlue": 0.84
                     },
                     {
-                         "externalField": "soap:Envelope$$soap:Body$$BusinessInstantID20Request$$Options$$DOBRadius",
-                         "value": 0
+                         "externAlField": "soAp:Envelope$$soAp:Body$$BusinessInstAntID20Request$$Options$$DOBRAdius",
+                         "vAlue": 0
                     },
                     {
-                         "externalField": "soap:Envelope$$soap:Body$$BusinessInstantID20Request$$User$$ReferenceCode",
-                         "value": "Corporation name"
+                         "externAlField": "soAp:Envelope$$soAp:Body$$BusinessInstAntID20Request$$User$$ReferenceCode",
+                         "vAlue": "CorporAtion nAme"
                     },
                     {
-                         "externalField": "soap:Envelope$$soap:Body$$BusinessInstantID20Request$$User$$BillingCode",
-                         "value": "Account Manager name"
+                         "externAlField": "soAp:Envelope$$soAp:Body$$BusinessInstAntID20Request$$User$$BillingCode",
+                         "vAlue": "Account MAnAger nAme"
                     },
                     {
-                         "externalField": "soap:Envelope$$soap:Body$$BusinessInstantID20Request$$User$$GLBPurpose",
-                         "value": 0
+                         "externAlField": "soAp:Envelope$$soAp:Body$$BusinessInstAntID20Request$$User$$GLBPurpose",
+                         "vAlue": 0
                     },
                     {
-                         "externalField": "soap:Envelope$$soap:Body$$BusinessInstantID20Request$$User$$DLPurpose",
-                         "value": 0
+                         "externAlField": "soAp:Envelope$$soAp:Body$$BusinessInstAntID20Request$$User$$DLPurpose",
+                         "vAlue": 0
                     },
                     {
-                         "externalField": "soap:Envelope$$soap:Body$$BusinessInstantID20Request$$User$$AccountNumber",
-                         "value": "123456789"
+                         "externAlField": "soAp:Envelope$$soAp:Body$$BusinessInstAntID20Request$$User$$AccountNumber",
+                         "vAlue": "123456789"
                     },
                     {
-                         "externalField": "soap:Envelope$$soap:Body$$BusinessInstantID20Request$$User$$EndUser$$CompanyName",
-                         "value": "Ame Corporation"
+                         "externAlField": "soAp:Envelope$$soAp:Body$$BusinessInstAntID20Request$$User$$EndUser$$CompAnyNAme",
+                         "vAlue": "Ame CorporAtion"
                     },
                     {
-                         "externalField": "soap:Envelope$$soap:Body$$BusinessInstantID20Request$$User$$EndUser$$StreetAddress1",
-                         "value": "123 NW Main Street"
+                         "externAlField": "soAp:Envelope$$soAp:Body$$BusinessInstAntID20Request$$User$$EndUser$$StreetAddress1",
+                         "vAlue": "123 NW MAin Street"
                     },
                     {
-                         "externalField": "soap:Envelope$$soap:Body$$BusinessInstantID20Request$$User$$EndUser$$City",
-                         "value": "Cocoplum"
+                         "externAlField": "soAp:Envelope$$soAp:Body$$BusinessInstAntID20Request$$User$$EndUser$$City",
+                         "vAlue": "Cocoplum"
                     },
                     {
-                         "externalField": "soap:Envelope$$soap:Body$$BusinessInstantID20Request$$User$$EndUser$$State",
-                         "value": "FL"
+                         "externAlField": "soAp:Envelope$$soAp:Body$$BusinessInstAntID20Request$$User$$EndUser$$StAte",
+                         "vAlue": "FL"
                     },
                     {
-                         "externalField": "soap:Envelope$$soap:Body$$BusinessInstantID20Request$$User$$EndUser$$Zip5",
-                         "value": 33442
+                         "externAlField": "soAp:Envelope$$soAp:Body$$BusinessInstAntID20Request$$User$$EndUser$$Zip5",
+                         "vAlue": 33442
                     },
                     {
-                         "externalField": "soap:Envelope$$soap:Body$$BusinessInstantID20Request$$User$$EndUser$$Phone",
-                         "value": 5555551234
+                         "externAlField": "soAp:Envelope$$soAp:Body$$BusinessInstAntID20Request$$User$$EndUser$$Phone",
+                         "vAlue": 5555551234
                     },
                     {
-                         "externalField": "soap:Envelope$$soap:Body$$BusinessInstantID20Request$$Options$$DOBMatchOptions$$Matchtype",
-                         "value": "ExactCCYYMMDD"
+                         "externAlField": "soAp:Envelope$$soAp:Body$$BusinessInstAntID20Request$$Options$$DOBMAtchOptions$$MAtchtype",
+                         "vAlue": "ExActCCYYMMDD"
                     },
                     {
-                         "externalField": "soap:Envelope$$soap:Body$$BusinessInstantID20Request$$Options$$ExactAddressMatch",
-                         "value": 1
+                         "externAlField": "soAp:Envelope$$soAp:Body$$BusinessInstAntID20Request$$Options$$ExActAddressMAtch",
+                         "vAlue": 1
                     },
                     {
-                         "externalField": "soap:Envelope$$soap:Body$$BusinessInstantID20Request$$Options$$ExactDOBMatch",
-                         "value": 1
+                         "externAlField": "soAp:Envelope$$soAp:Body$$BusinessInstAntID20Request$$Options$$ExActDOBMAtch",
+                         "vAlue": 1
                     },
                     {
-                         "externalField": "soap:Envelope$$soap:Body$$BusinessInstantID20Request$$Options$$ExactDriverLicenseMatch",
-                         "value": 1
+                         "externAlField": "soAp:Envelope$$soAp:Body$$BusinessInstAntID20Request$$Options$$ExActDriverLicenseMAtch",
+                         "vAlue": 1
                     },
                     {
-                         "externalField": "soap:Envelope$$soap:Body$$BusinessInstantID20Request$$Options$$ExactFirstNameMatch",
-                         "value": 1
+                         "externAlField": "soAp:Envelope$$soAp:Body$$BusinessInstAntID20Request$$Options$$ExActFirstNAmeMAtch",
+                         "vAlue": 1
                     },
                     {
-                         "externalField": "soap:Envelope$$soap:Body$$BusinessInstantID20Request$$Options$$ExactFirstNameMatchAllowNicknames",
-                         "value": 0
+                         "externAlField": "soAp:Envelope$$soAp:Body$$BusinessInstAntID20Request$$Options$$ExActFirstNAmeMAtchAllowNicknAmes",
+                         "vAlue": 0
                     },
                     {
-                         "externalField": "soap:Envelope$$soap:Body$$BusinessInstantID20Request$$Options$$ExactLastNameMatch",
-                         "value": 1
+                         "externAlField": "soAp:Envelope$$soAp:Body$$BusinessInstAntID20Request$$Options$$ExActLAstNAmeMAtch",
+                         "vAlue": 1
                     },
                     {
-                         "externalField": "soap:Envelope$$soap:Body$$BusinessInstantID20Request$$Options$$ExactPhoneMatch",
-                         "value": 1
+                         "externAlField": "soAp:Envelope$$soAp:Body$$BusinessInstAntID20Request$$Options$$ExActPhoneMAtch",
+                         "vAlue": 1
                     },
                     {
-                         "externalField": "soap:Envelope$$soap:Body$$BusinessInstantID20Request$$Options$$ExactSSNMatch",
-                         "value": 1
+                         "externAlField": "soAp:Envelope$$soAp:Body$$BusinessInstAntID20Request$$Options$$ExActSSNMAtch",
+                         "vAlue": 1
                     },
                     {
-                         "externalField": "soap:Envelope$$soap:Body$$BusinessInstantID20Request$$Options$$IncludeOFAC",
-                         "value": 1
+                         "externAlField": "soAp:Envelope$$soAp:Body$$BusinessInstAntID20Request$$Options$$IncludeOFAC",
+                         "vAlue": 1
                     },
                     {
-                         "externalField": "soap:Envelope$$soap:Body$$BusinessInstantID20Request$$Options$$NameInputOrder",
-                         "value": "Unknown"
+                         "externAlField": "soAp:Envelope$$soAp:Body$$BusinessInstAntID20Request$$Options$$NAmeInputOrder",
+                         "vAlue": "Unknown"
                     }
                ]
           }
      },
-     "intframework__Request_Timeout__c": 20000,
-     "intframework__Response_Mapping__c": {
-          "StorageConfiguration": {
-               "storeInDB": "False",
-               "publishAsJson": "False"
+     "intfrAmework__Request_Timeout__c": 20000,
+     "intfrAmework__Response_MApping__c": {
+          "StorAgeConfigurAtion": {
+               "storeInDB": "FAlse",
+               "publishAsJson": "FAlse"
           }
      },
-     "intframework__Retry_On_Failure__c": false,
-     "intframework__Send_File__c": false,
-     "intframework__UI_Page_Name__c": "KYCHome",
-     "intframework__UI_Page_Type__c": "SKUID",
-     "intframework__Use_New_Logging_Mechanism__c": false,
-     "intframework__Use_Response_Mocker__c": false
+     "intfrAmework__Retry_On_FAilure__c": fAlse,
+     "intfrAmework__Send_File__c": fAlse,
+     "intfrAmework__UI_PAge_NAme__c": "KYCHome",
+     "intfrAmework__UI_PAge_Type__c": "SKUID",
+     "intfrAmework__Use_New_Logging_MechAnism__c": fAlse,
+     "intfrAmework__Use_Response_Mocker__c": fAlse
 }

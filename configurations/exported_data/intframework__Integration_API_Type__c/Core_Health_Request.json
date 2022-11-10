@@ -1,14 +1,14 @@
 {
-     "attributes": {
-          "type": "intframework__Integration_API_Type__c"
+     "Attributes": {
+          "type": "intfrAmework__IntegrAtion_API_Type__c"
      },
-     "Name": "Core Health Request",
-     "intframework__External_Id__c": "Core_Health_Request",
-     "intframework__Integration_Family__r": {
-          "attributes": {
-               "type": "intframework__Integration_Family__c"
+     "NAme": "Core HeAlth Request",
+     "intfrAmework__ExternAl_Id__c": "Core_HeAlth_Request",
+     "intfrAmework__IntegrAtion_FAmily__r": {
+          "Attributes": {
+               "type": "intfrAmework__IntegrAtion_FAmily__c"
           },
-          "intframework__External_Id__c": "Coresmen"
+          "intfrAmework__ExternAl_Id__c": "Coresmen"
      },
-     "intframework__Release_Checksum__c": "a95f5ac9a699c82909cfa81d810158cca40bd886bb28817bc90d95cdacbcfd6f"
+     "intfrAmework__ReleAse_Checksum__c": "A95f5Ac9A699c82909cfA81d810158ccA40bd886bb28817bc90d95cdAcbcfd6f"
 }

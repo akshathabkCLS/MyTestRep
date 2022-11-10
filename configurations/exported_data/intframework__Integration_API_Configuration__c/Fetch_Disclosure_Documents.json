@@ -1,72 +1,72 @@
 {
-     "attributes": {
-          "type": "intframework__Integration_API_Configuration__c"
+     "Attributes": {
+          "type": "intfrAmework__IntegrAtion_API_ConfigurAtion__c"
      },
-     "Name": "Fetch Disclosure Documents",
-     "intframework__API_Endpoint__c": "/vfi_stage/q2-gro-core-api-stg/application/v1/disclosureDocument",
-     "intframework__API_Named_Credential__c": null,
-     "intframework__Adapter_Class_Name__c": "oao.DisclosureDocumentAdapter",
-     "intframework__Additional_Header_Parameters__c": null,
-     "intframework__Execution_Priority__c": 1,
-     "intframework__External_Id__c": "Fetch_Disclosure_Documents",
-     "intframework__File_Extension__c": null,
-     "intframework__File_Name_Prefix__c": null,
-     "intframework__Generate_File__c": false,
-     "intframework__HTTP_Content_Type__c": "application/json",
-     "intframework__HTTP_Method__c": "POST",
-     "intframework__Integration_API_Type__r": {
-          "attributes": {
-               "type": "intframework__Integration_API_Type__c"
+     "NAme": "Fetch Disclosure Documents",
+     "intfrAmework__API_Endpoint__c": "/vfi_stAge/q2-gro-core-Api-stg/ApplicAtion/v1/disclosureDocument",
+     "intfrAmework__API_NAmed_CredentiAl__c": null,
+     "intfrAmework__AdApter_ClAss_NAme__c": "oAo.DisclosureDocumentAdApter",
+     "intfrAmework__AdditionAl_HeAder_PArAmeters__c": null,
+     "intfrAmework__Execution_Priority__c": 1,
+     "intfrAmework__ExternAl_Id__c": "Fetch_Disclosure_Documents",
+     "intfrAmework__File_Extension__c": null,
+     "intfrAmework__File_NAme_Prefix__c": null,
+     "intfrAmework__GenerAte_File__c": fAlse,
+     "intfrAmework__HTTP_Content_Type__c": "ApplicAtion/json",
+     "intfrAmework__HTTP_Method__c": "POST",
+     "intfrAmework__IntegrAtion_API_Type__r": {
+          "Attributes": {
+               "type": "intfrAmework__IntegrAtion_API_Type__c"
           },
-          "intframework__External_Id__c": "DisclosureDocuments"
+          "intfrAmework__ExternAl_Id__c": "DisclosureDocuments"
      },
-     "intframework__Integration_Configuration__r": {
-          "attributes": {
-               "type": "intframework__Integration_Configuration__c"
+     "intfrAmework__IntegrAtion_ConfigurAtion__r": {
+          "Attributes": {
+               "type": "intfrAmework__IntegrAtion_ConfigurAtion__c"
           },
-          "intframework__External_Id__c": "DisclosureDocuments"
+          "intfrAmework__ExternAl_Id__c": "DisclosureDocuments"
      },
-     "intframework__Integration_Family__r": {
-          "attributes": {
-               "type": "intframework__Integration_Family__c"
+     "intfrAmework__IntegrAtion_FAmily__r": {
+          "Attributes": {
+               "type": "intfrAmework__IntegrAtion_FAmily__c"
           },
-          "intframework__External_Id__c": "AOGroService"
+          "intfrAmework__ExternAl_Id__c": "AOGroService"
      },
-     "intframework__Integration_Provider__r": {
-          "attributes": {
-               "type": "intframework__Integration_Provider__c"
+     "intfrAmework__IntegrAtion_Provider__r": {
+          "Attributes": {
+               "type": "intfrAmework__IntegrAtion_Provider__c"
           },
-          "intframework__External_Id__c": "DisclosureDocuments"
+          "intfrAmework__ExternAl_Id__c": "DisclosureDocuments"
      },
-     "intframework__Log_Filter__c": null,
-     "intframework__Log_Request_Response__c": false,
-     "intframework__Long_Running_Operation__c": false,
-     "intframework__Number_Of_Retries__c": 0,
-     "intframework__Release_Checksum__c": "aa32f585f982514f9e0da292663784a184c6248cb22d5588d6c7817da4f1f6ac",
-     "intframework__Request_Mapping__c": {
-          "thirdPartySystem": {
-               "name": "AOGroService",
-               "dynamicDataParameters": [
+     "intfrAmework__Log_Filter__c": null,
+     "intfrAmework__Log_Request_Response__c": fAlse,
+     "intfrAmework__Long_Running_OperAtion__c": fAlse,
+     "intfrAmework__Number_Of_Retries__c": 0,
+     "intfrAmework__ReleAse_Checksum__c": "AA32f585f982514f9e0dA292663784A184c6248cb22d5588d6c7817dA4f1f6Ac",
+     "intfrAmework__Request_MApping__c": {
+          "thirdPArtySystem": {
+               "nAme": "AOGroService",
+               "dynAmicDAtAPArAmeters": [
                     {
-                         "externalField": "listOfProducts"
+                         "externAlField": "listOfProducts"
                     }
                ],
                "filters": [],
-               "staticParameters": []
+               "stAticPArAmeters": []
           }
      },
-     "intframework__Request_Timeout__c": 120000,
-     "intframework__Response_Mapping__c": {
-          "StorageConfiguration": {
-               "StoreInDB": "False",
-               "PublishAsJSON": "False"
+     "intfrAmework__Request_Timeout__c": 120000,
+     "intfrAmework__Response_MApping__c": {
+          "StorAgeConfigurAtion": {
+               "StoreInDB": "FAlse",
+               "PublishAsJSON": "FAlse"
           },
-          "DMLOperations": []
+          "DMLOperAtions": []
      },
-     "intframework__Retry_On_Failure__c": false,
-     "intframework__Send_File__c": false,
-     "intframework__UI_Page_Name__c": null,
-     "intframework__UI_Page_Type__c": null,
-     "intframework__Use_New_Logging_Mechanism__c": false,
-     "intframework__Use_Response_Mocker__c": false
+     "intfrAmework__Retry_On_FAilure__c": fAlse,
+     "intfrAmework__Send_File__c": fAlse,
+     "intfrAmework__UI_PAge_NAme__c": null,
+     "intfrAmework__UI_PAge_Type__c": null,
+     "intfrAmework__Use_New_Logging_MechAnism__c": fAlse,
+     "intfrAmework__Use_Response_Mocker__c": fAlse
 }

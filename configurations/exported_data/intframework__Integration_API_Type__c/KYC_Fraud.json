@@ -1,14 +1,14 @@
 {
-     "attributes": {
-          "type": "intframework__Integration_API_Type__c"
+     "Attributes": {
+          "type": "intfrAmework__IntegrAtion_API_Type__c"
      },
-     "Name": "KYC-Fraud",
-     "intframework__External_Id__c": "KYC_Fraud",
-     "intframework__Integration_Family__r": {
-          "attributes": {
-               "type": "intframework__Integration_Family__c"
+     "NAme": "KYC-FrAud",
+     "intfrAmework__ExternAl_Id__c": "KYC_FrAud",
+     "intfrAmework__IntegrAtion_FAmily__r": {
+          "Attributes": {
+               "type": "intfrAmework__IntegrAtion_FAmily__c"
           },
-          "intframework__External_Id__c": "KYC"
+          "intfrAmework__ExternAl_Id__c": "KYC"
      },
-     "intframework__Release_Checksum__c": "004a33be88c9dfb17d2fa62ce6e2fd84baf06ea6dd8c5a0a5a651dced523aa10"
+     "intfrAmework__ReleAse_Checksum__c": "004A33be88c9dfb17d2fA62ce6e2fd84bAf06eA6dd8c5A0A5A651dced523AA10"
 }

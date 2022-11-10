@@ -1,87 +1,87 @@
 {
-     "attributes": {
-          "type": "intframework__Integration_API_Configuration__c"
+     "Attributes": {
+          "type": "intfrAmework__IntegrAtion_API_ConfigurAtion__c"
      },
-     "Name": "Alloy Finish Journey",
-     "intframework__API_Endpoint__c": "journeys/J-kFaiaedyfVcRUpBFil9B/applications/",
-     "intframework__API_Named_Credential__c": "Alloy",
-     "intframework__Adapter_Class_Name__c": "oao.FinishJourneyAdapter",
-     "intframework__Additional_Header_Parameters__c": null,
-     "intframework__Execution_Priority__c": 1,
-     "intframework__External_Id__c": "Alloy_Finish_Journey",
-     "intframework__File_Extension__c": null,
-     "intframework__File_Name_Prefix__c": null,
-     "intframework__Generate_File__c": false,
-     "intframework__HTTP_Content_Type__c": "application/json",
-     "intframework__HTTP_Method__c": "PUT",
-     "intframework__Integration_API_Type__r": {
-          "attributes": {
-               "type": "intframework__Integration_API_Type__c"
+     "NAme": "Alloy Finish Journey",
+     "intfrAmework__API_Endpoint__c": "journeys/J-kFAiAedyfVcRUpBFil9B/ApplicAtions/",
+     "intfrAmework__API_NAmed_CredentiAl__c": "Alloy",
+     "intfrAmework__AdApter_ClAss_NAme__c": "oAo.FinishJourneyAdApter",
+     "intfrAmework__AdditionAl_HeAder_PArAmeters__c": null,
+     "intfrAmework__Execution_Priority__c": 1,
+     "intfrAmework__ExternAl_Id__c": "Alloy_Finish_Journey",
+     "intfrAmework__File_Extension__c": null,
+     "intfrAmework__File_NAme_Prefix__c": null,
+     "intfrAmework__GenerAte_File__c": fAlse,
+     "intfrAmework__HTTP_Content_Type__c": "ApplicAtion/json",
+     "intfrAmework__HTTP_Method__c": "PUT",
+     "intfrAmework__IntegrAtion_API_Type__r": {
+          "Attributes": {
+               "type": "intfrAmework__IntegrAtion_API_Type__c"
           },
-          "intframework__External_Id__c": "Finish_Journey"
+          "intfrAmework__ExternAl_Id__c": "Finish_Journey"
      },
-     "intframework__Integration_Configuration__r": {
-          "attributes": {
-               "type": "intframework__Integration_Configuration__c"
+     "intfrAmework__IntegrAtion_ConfigurAtion__r": {
+          "Attributes": {
+               "type": "intfrAmework__IntegrAtion_ConfigurAtion__c"
           },
-          "intframework__External_Id__c": "Alloy_Integration_Config"
+          "intfrAmework__ExternAl_Id__c": "Alloy_IntegrAtion_Config"
      },
-     "intframework__Integration_Family__r": {
-          "attributes": {
-               "type": "intframework__Integration_Family__c"
+     "intfrAmework__IntegrAtion_FAmily__r": {
+          "Attributes": {
+               "type": "intfrAmework__IntegrAtion_FAmily__c"
           },
-          "intframework__External_Id__c": "Alloy_KYC_KYB"
+          "intfrAmework__ExternAl_Id__c": "Alloy_KYC_KYB"
      },
-     "intframework__Integration_Provider__r": {
-          "attributes": {
-               "type": "intframework__Integration_Provider__c"
+     "intfrAmework__IntegrAtion_Provider__r": {
+          "Attributes": {
+               "type": "intfrAmework__IntegrAtion_Provider__c"
           },
-          "intframework__External_Id__c": "Q2_Alloy"
+          "intfrAmework__ExternAl_Id__c": "Q2_Alloy"
      },
-     "intframework__Log_Filter__c": null,
-     "intframework__Log_Request_Response__c": false,
-     "intframework__Long_Running_Operation__c": false,
-     "intframework__Number_Of_Retries__c": 0,
-     "intframework__Release_Checksum__c": "296ff61e3138b10fb7b205e920c736dc52179bb5e33ff23c3c28a3d11efa2cce",
-     "intframework__Request_Mapping__c": {
-          "thirdPartySystem": {
-               "name": "addParties",
-               "useRequestGenerator": true,
-               "staticParameters": [
+     "intfrAmework__Log_Filter__c": null,
+     "intfrAmework__Log_Request_Response__c": fAlse,
+     "intfrAmework__Long_Running_OperAtion__c": fAlse,
+     "intfrAmework__Number_Of_Retries__c": 0,
+     "intfrAmework__ReleAse_Checksum__c": "296ff61e3138b10fb7b205e920c736dc52179bb5e33ff23c3c28A3d11efA2cce",
+     "intfrAmework__Request_MApping__c": {
+          "thirdPArtySystem": {
+               "nAme": "AddPArties",
+               "useRequestGenerAtor": true,
+               "stAticPArAmeters": [
                     {
-                         "externalField": "has_finished_sending_additional_entities",
-                         "value": true
+                         "externAlField": "hAs_finished_sending_AdditionAl_entities",
+                         "vAlue": true
                     }
                ],
                "filters": [
                     {
-                         "objectAPI": "genesis__Applications__c",
-                         "objectAlias": "applicationDetails",
-                         "ignoreObjectAliasInRequestGeneration": true,
+                         "objectAPI": "genesis__ApplicAtions__c",
+                         "objectAliAs": "ApplicAtionDetAils",
+                         "ignoreObjectAliAsInRequestGenerAtion": true,
                          "limitTo": "1",
                          "fields": [
                               {
-                                   "externalField": "application_token",
+                                   "externAlField": "ApplicAtion_token",
                                    "ignoreInRequest": true,
-                                   "fieldAPI": "oao__Journey_Application_Token__c"
+                                   "fieldAPI": "oAo__Journey_ApplicAtion_Token__c"
                               }
                          ],
-                         "whereClause": "Id = :appId"
+                         "whereClAuse": "Id = :AppId"
                     }
                ]
           }
      },
-     "intframework__Request_Timeout__c": 120000,
-     "intframework__Response_Mapping__c": {
-          "StorageConfiguration": {
-               "storeInDB": "False",
-               "publishAsJson": "False"
+     "intfrAmework__Request_Timeout__c": 120000,
+     "intfrAmework__Response_MApping__c": {
+          "StorAgeConfigurAtion": {
+               "storeInDB": "FAlse",
+               "publishAsJson": "FAlse"
           }
      },
-     "intframework__Retry_On_Failure__c": false,
-     "intframework__Send_File__c": false,
-     "intframework__UI_Page_Name__c": null,
-     "intframework__UI_Page_Type__c": null,
-     "intframework__Use_New_Logging_Mechanism__c": false,
-     "intframework__Use_Response_Mocker__c": false
+     "intfrAmework__Retry_On_FAilure__c": fAlse,
+     "intfrAmework__Send_File__c": fAlse,
+     "intfrAmework__UI_PAge_NAme__c": null,
+     "intfrAmework__UI_PAge_Type__c": null,
+     "intfrAmework__Use_New_Logging_MechAnism__c": fAlse,
+     "intfrAmework__Use_Response_Mocker__c": fAlse
 }

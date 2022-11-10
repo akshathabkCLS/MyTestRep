@@ -1,11 +1,11 @@
 {
-     "attributes": {
-          "type": "clcommon__Legal_Entity__c"
+     "Attributes": {
+          "type": "clcommon__LegAl_Entity__c"
      },
-     "Name": "Non-Profit",
-     "clcommon__Individual__c": false,
-     "clcommon__Legal_Entity_Type_Code__c": null,
-     "clcommon__Legal_Entity_Type__c": null,
-     "clcommon__Release_Checksum__c": "2a017d6bff2c401fd001453185307c9e6da3d8e84a0124be97b5f109fa42f5b5",
-     "genesis__External_Id__c": "Non_Profit"
+     "NAme": "Non-Profit",
+     "clcommon__IndividuAl__c": fAlse,
+     "clcommon__LegAl_Entity_Type_Code__c": null,
+     "clcommon__LegAl_Entity_Type__c": null,
+     "clcommon__ReleAse_Checksum__c": "2A017d6bff2c401fd001453185307c9e6dA3d8e84A0124be97b5f109fA42f5b5",
+     "genesis__ExternAl_Id__c": "Non_Profit"
 }

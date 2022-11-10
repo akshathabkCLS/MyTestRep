@@ -1,12 +1,12 @@
 {
-     "attributes": {
+     "Attributes": {
           "type": "clcommon__Rule_Set__c"
      },
-     "Name": "BAO KYB Rules",
-     "clcommon__External_ID__c": "BAO_KYB_Rules",
+     "NAme": "BAO KYB Rules",
+     "clcommon__ExternAl_ID__c": "BAO_KYB_Rules",
      "clcommon__Function__c": null,
-     "clcommon__Logging_Enabled__c": true,
+     "clcommon__Logging_EnAbled__c": true,
      "clcommon__Mode_of_Rule_Execution_On_Priority__c": null,
-     "clcommon__Release_Checksum__c": "2ff2ae8520703394f841d4c3bac4bd4f0add9c9dfce7e6128cdffb4ca30f1d8d",
+     "clcommon__ReleAse_Checksum__c": "2ff2Ae8520703394f841d4c3bAc4bd4f0Add9c9dfce7e6128cdffb4cA30f1d8d",
      "clcommon__Type__c": null
 }

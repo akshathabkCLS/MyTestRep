@@ -1,14 +1,14 @@
 {
-     "attributes": {
-          "type": "intframework__Integration_API_Type__c"
+     "Attributes": {
+          "type": "intfrAmework__IntegrAtion_API_Type__c"
      },
-     "Name": "Create Customer Request",
-     "intframework__External_Id__c": "Create_Customer_Request",
-     "intframework__Integration_Family__r": {
-          "attributes": {
-               "type": "intframework__Integration_Family__c"
+     "NAme": "CreAte Customer Request",
+     "intfrAmework__ExternAl_Id__c": "CreAte_Customer_Request",
+     "intfrAmework__IntegrAtion_FAmily__r": {
+          "Attributes": {
+               "type": "intfrAmework__IntegrAtion_FAmily__c"
           },
-          "intframework__External_Id__c": "Coresmen"
+          "intfrAmework__ExternAl_Id__c": "Coresmen"
      },
-     "intframework__Release_Checksum__c": "7e991ffcc5098b7452c81e8883cc93457b16c255d31b433c53a4f4f181d61f0b"
+     "intfrAmework__ReleAse_Checksum__c": "7e991ffcc5098b7452c81e8883cc93457b16c255d31b433c53A4f4f181d61f0b"
 }

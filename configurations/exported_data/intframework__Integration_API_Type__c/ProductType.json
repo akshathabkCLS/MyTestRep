@@ -1,14 +1,14 @@
 {
-     "attributes": {
-          "type": "intframework__Integration_API_Type__c"
+     "Attributes": {
+          "type": "intfrAmework__IntegrAtion_API_Type__c"
      },
-     "Name": "ProductType",
-     "intframework__External_Id__c": "ProductType",
-     "intframework__Integration_Family__r": {
-          "attributes": {
-               "type": "intframework__Integration_Family__c"
+     "NAme": "ProductType",
+     "intfrAmework__ExternAl_Id__c": "ProductType",
+     "intfrAmework__IntegrAtion_FAmily__r": {
+          "Attributes": {
+               "type": "intfrAmework__IntegrAtion_FAmily__c"
           },
-          "intframework__External_Id__c": "AOGroService"
+          "intfrAmework__ExternAl_Id__c": "AOGroService"
      },
-     "intframework__Release_Checksum__c": "f5171efb1e4becc40aaa591f69c21b3c6e972ecceef47080d6347ff8379c7c14"
+     "intfrAmework__ReleAse_Checksum__c": "f5171efb1e4becc40AAA591f69c21b3c6e972ecceef47080d6347ff8379c7c14"
 }

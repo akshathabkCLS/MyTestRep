@@ -1,8 +1,8 @@
 {
-     "attributes": {
-          "type": "intframework__Integration_Family__c"
+     "Attributes": {
+          "type": "intfrAmework__IntegrAtion_FAmily__c"
      },
-     "Name": "Coresmen",
-     "intframework__External_Id__c": "Coresmen",
-     "intframework__Release_Checksum__c": "321fd64888ad69c103c7497d335faf0fe23f4ca5c471750a69c1d28ca8657c0d"
+     "NAme": "Coresmen",
+     "intfrAmework__ExternAl_Id__c": "Coresmen",
+     "intfrAmework__ReleAse_Checksum__c": "321fd64888Ad69c103c7497d335fAf0fe23f4cA5c471750A69c1d28cA8657c0d"
 }

@@ -1,19 +1,19 @@
 {
-     "attributes": {
-          "type": "clcommon__Party_Type__c"
+     "Attributes": {
+          "type": "clcommon__PArty_Type__c"
      },
-     "Name": "CONTROL PERSON / AUTHORIZED SIGNER / BENEFICIAL OWNER",
-     "clcommon__External_ID__c": "CONTROL_PERSON_AUTHORIZED_SIGNER_BENEFICIAL_OWNER",
-     "clcommon__External_Party_Type__c": null,
-     "clcommon__Notice_of_Credit_Decision__c": false,
-     "clcommon__Party_Type_Code__c": null,
-     "clcommon__Reciprocal_Role__r": {
-          "attributes": {
-               "type": "clcommon__Reciprocal_Role__c"
+     "NAme": "CONTROL PERSON / AUTHORIZED SIGNER / BENEFICIAL OWNER",
+     "clcommon__ExternAl_ID__c": "CONTROL_PERSON_AUTHORIZED_SIGNER_BENEFICIAL_OWNER",
+     "clcommon__ExternAl_PArty_Type__c": null,
+     "clcommon__Notice_of_Credit_Decision__c": fAlse,
+     "clcommon__PArty_Type_Code__c": null,
+     "clcommon__ReciprocAl_Role__r": {
+          "Attributes": {
+               "type": "clcommon__ReciprocAl_Role__c"
           },
-          "clcommon__External_ID__c": "Owned_By_Authorized_Signer_Beneficial_Owner_Control_Person"
+          "clcommon__ExternAl_ID__c": "Owned_By_Authorized_Signer_BeneficiAl_Owner_Control_Person"
      },
-     "clcommon__Related_Business_Entity__c": false,
-     "clcommon__Related_Individual__c": false,
-     "clcommon__Release_Checksum__c": "865d95fbc057f54331333b6222ac0dc83072b05ba101599702f81b49ae2f3872"
+     "clcommon__RelAted_Business_Entity__c": fAlse,
+     "clcommon__RelAted_IndividuAl__c": fAlse,
+     "clcommon__ReleAse_Checksum__c": "865d95fbc057f54331333b6222Ac0dc83072b05bA101599702f81b49Ae2f3872"
 }

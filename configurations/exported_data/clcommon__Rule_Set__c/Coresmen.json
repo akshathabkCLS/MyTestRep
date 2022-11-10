@@ -1,12 +1,12 @@
 {
-     "attributes": {
+     "Attributes": {
           "type": "clcommon__Rule_Set__c"
      },
-     "Name": "Coresmen",
-     "clcommon__External_ID__c": "Coresmen",
+     "NAme": "Coresmen",
+     "clcommon__ExternAl_ID__c": "Coresmen",
      "clcommon__Function__c": null,
-     "clcommon__Logging_Enabled__c": false,
+     "clcommon__Logging_EnAbled__c": fAlse,
      "clcommon__Mode_of_Rule_Execution_On_Priority__c": null,
-     "clcommon__Release_Checksum__c": "58cb9a0e178d3c4a09cb06cfe3dd88ae13301b1795bd9bd158e5e0fb5b6a5ebf",
+     "clcommon__ReleAse_Checksum__c": "58cb9A0e178d3c4A09cb06cfe3dd88Ae13301b1795bd9bd158e5e0fb5b6A5ebf",
      "clcommon__Type__c": null
 }

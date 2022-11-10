@@ -1,104 +1,104 @@
 {
-     "attributes": {
+     "Attributes": {
           "type": "clcommon__Rule__c"
      },
-     "Name": "ByLaws doc cat rule",
+     "NAme": "ByLAws doc cAt rule",
      "clcommon__Document_Definition__r": null,
-     "clcommon__Enabled__c": true,
-     "clcommon__External_ID__c": "ByLaws_doc_cat_rule",
-     "clcommon__Object_Type__c": "clcommon__Party__c",
-     "clcommon__Parent_Record_Id__c": null,
-     "clcommon__Parent_Rule__r": null,
-     "clcommon__Release_Checksum__c": "895328430798ed25e22623940b608857e1952e9a4a9ba6d7bf74624359094091",
+     "clcommon__EnAbled__c": true,
+     "clcommon__ExternAl_ID__c": "ByLAws_doc_cAt_rule",
+     "clcommon__Object_Type__c": "clcommon__PArty__c",
+     "clcommon__PArent_Record_Id__c": null,
+     "clcommon__PArent_Rule__r": null,
+     "clcommon__ReleAse_Checksum__c": "895328430798ed25e22623940b608857e1952e9A4A9bA6d7bf74624359094091",
      "clcommon__Rule_Json__c": {
-          "validationClassName": null,
-          "successMessage": "Rule Evaluation Passed for rule : ByLaws doc cat rule",
+          "vAlidAtionClAssNAme": null,
+          "successMessAge": "Rule EvAluAtion PAssed for rule : ByLAws doc cAt rule",
           "successActions": [
                {
                     "type": "Apex",
                     "priority": null,
-                    "apexClassName": "genesis.PolicyConditionGenerationAction",
-                    "additionalParams": "{\"Action type\":\"Success\"}",
-                    "actionName": "Action1"
+                    "ApexClAssNAme": "genesis.PolicyConditionGenerAtionAction",
+                    "AdditionAlPArAms": "{\"Action type\":\"Success\"}",
+                    "ActionNAme": "Action1"
                }
           ],
-          "sObjectName": "",
-          "saveRuleClass": "genesis.PolicyConditionGenerationRuleManagement",
-          "ruleName": "ByLaws doc cat rule",
+          "sObjectNAme": "",
+          "sAveRuleClAss": "genesis.PolicyConditionGenerAtionRuleMAnAgement",
+          "ruleNAme": "ByLAws doc cAt rule",
           "priority": 11,
-          "parentRuleID": null,
-          "parentRecordId": null,
-          "objectType": "clcommon__Party__c",
-          "failureMessage": "Rule Evaluation Failed for rule : ByLaws doc cat rule",
-          "failureActions": [
+          "pArentRuleID": null,
+          "pArentRecordId": null,
+          "objectType": "clcommon__PArty__c",
+          "fAilureMessAge": "Rule EvAluAtion FAiled for rule : ByLAws doc cAt rule",
+          "fAilureActions": [
                {
                     "type": "Apex",
                     "priority": null,
-                    "apexClassName": "genesis.PolicyConditionGenerationAction",
-                    "additionalParams": "{\"Action type\":\"Failure\"}",
-                    "actionName": "Action2"
+                    "ApexClAssNAme": "genesis.PolicyConditionGenerAtionAction",
+                    "AdditionAlPArAms": "{\"Action type\":\"FAilure\"}",
+                    "ActionNAme": "Action2"
                }
           ],
-          "externalId": "RB_By-Laws/Meeting Minutes/Other Authorizations_rule",
+          "externAlId": "RB_By-LAws/Meeting Minutes/Other AuthorizAtions_rule",
           "executeActions": null,
-          "evaluationExpression": "$1&&$2&&$3",
-          "enabled": null,
-          "criteria": [
+          "evAluAtionExpression": "$1&&$2&&$3",
+          "enAbled": null,
+          "criteriA": [
                {
                     "type": "Expression",
                     "sequence": "$1",
-                    "relatedObject": "clcommon__Party__c",
-                    "minimumValue": "",
-                    "maximumValue": "",
-                    "matchingValue": "Business Account Opening Package",
-                    "matchingType": "==",
+                    "relAtedObject": "clcommon__PArty__c",
+                    "minimumVAlue": "",
+                    "mAximumVAlue": "",
+                    "mAtchingVAlue": "Business Account Opening PAckAge",
+                    "mAtchingType": "==",
                     "fieldType": "STRING",
-                    "fieldName": "Product Name",
-                    "fieldAPIName": "genesis__application__r.genesis__cl_product__r.clcommon__product_name__c",
-                    "criterionName": null,
-                    "apexClassName": null,
-                    "additionalParams": null
+                    "fieldNAme": "Product NAme",
+                    "fieldAPINAme": "genesis__ApplicAtion__r.genesis__cl_product__r.clcommon__product_nAme__c",
+                    "criterionNAme": null,
+                    "ApexClAssNAme": null,
+                    "AdditionAlPArAms": null
                },
                {
                     "type": "Expression",
                     "sequence": "$2",
-                    "relatedObject": "clcommon__Party__c",
-                    "minimumValue": "",
-                    "maximumValue": "",
-                    "matchingValue": "Limited Liability Company,Corporation,Non-Profit Corporation",
-                    "matchingType": "IN",
+                    "relAtedObject": "clcommon__PArty__c",
+                    "minimumVAlue": "",
+                    "mAximumVAlue": "",
+                    "mAtchingVAlue": "Limited LiAbility CompAny,CorporAtion,Non-Profit CorporAtion",
+                    "mAtchingType": "IN",
                     "fieldType": "PICKLIST",
-                    "fieldName": "Business Category",
-                    "fieldAPIName": "clcommon__account__r.oao__business_category__c",
-                    "criterionName": null,
-                    "apexClassName": null,
-                    "additionalParams": null
+                    "fieldNAme": "Business CAtegory",
+                    "fieldAPINAme": "clcommon__Account__r.oAo__business_cAtegory__c",
+                    "criterionNAme": null,
+                    "ApexClAssNAme": null,
+                    "AdditionAlPArAms": null
                },
                {
                     "type": "Expression",
                     "sequence": "$3",
-                    "relatedObject": "clcommon__Party__c",
-                    "minimumValue": "",
-                    "maximumValue": "",
-                    "matchingValue": "BUSINESS",
-                    "matchingType": "==",
+                    "relAtedObject": "clcommon__PArty__c",
+                    "minimumVAlue": "",
+                    "mAximumVAlue": "",
+                    "mAtchingVAlue": "BUSINESS",
+                    "mAtchingType": "==",
                     "fieldType": "STRING",
-                    "fieldName": "Party Type Name",
-                    "fieldAPIName": "clcommon__type__r.name",
-                    "criterionName": null,
-                    "apexClassName": null,
-                    "additionalParams": null
+                    "fieldNAme": "PArty Type NAme",
+                    "fieldAPINAme": "clcommon__type__r.nAme",
+                    "criterionNAme": null,
+                    "ApexClAssNAme": null,
+                    "AdditionAlPArAms": null
                }
           ],
-          "category": "PolicyConditionGenerationConfig",
-          "abortQueueExecutionOnFailure": null
+          "cAtegory": "PolicyConditionGenerAtionConfig",
+          "AbortQueueExecutionOnFAilure": null
      },
      "clcommon__Rule_Priority__c": 11,
      "clcommon__Rule_Set__r": {
-          "attributes": {
+          "Attributes": {
                "type": "clcommon__Rule_Set__c"
           },
-          "clcommon__External_ID__c": "Policy_Condition_Generation_Config"
+          "clcommon__ExternAl_ID__c": "Policy_Condition_GenerAtion_Config"
      },
-     "genesis__Department_Members__r": null
+     "genesis__DepArtment_Members__r": null
 }

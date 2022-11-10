@@ -1,8 +1,8 @@
 {
-     "attributes": {
-          "type": "intframework__Integration_Family__c"
+     "Attributes": {
+          "type": "intfrAmework__IntegrAtion_FAmily__c"
      },
-     "Name": "KYB",
-     "intframework__External_Id__c": "KYB",
-     "intframework__Release_Checksum__c": "5f9ddcb688caf631bafd521d1a7152b2f3a97f93565f48747189749e009d00bd"
+     "NAme": "KYB",
+     "intfrAmework__ExternAl_Id__c": "KYB",
+     "intfrAmework__ReleAse_Checksum__c": "5f9ddcb688cAf631bAfd521d1A7152b2f3A97f93565f48747189749e009d00bd"
 }

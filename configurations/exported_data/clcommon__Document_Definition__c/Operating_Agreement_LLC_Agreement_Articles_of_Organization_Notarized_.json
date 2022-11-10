@@ -1,28 +1,28 @@
 {
-     "attributes": {
+     "Attributes": {
           "type": "clcommon__Document_Definition__c"
      },
-     "Name": "Operating Agreement/LLC Agreement/Articles of Organization (Notarized)",
+     "NAme": "OperAting Agreement/LLC Agreement/Articles of OrgAnizAtion (NotArized)",
      "clcommon__Active__c": true,
-     "clcommon__Child_Object_API_Name__c": null,
-     "clcommon__Description__c": "Document for Operating Agreement/LLC Agreement/Articles of Organization (Notarized)",
-     "clcommon__Generation_Status__c": null,
-     "clcommon__Parent_Document_Definition__r": {
-          "attributes": {
+     "clcommon__Child_Object_API_NAme__c": null,
+     "clcommon__Description__c": "Document for OperAting Agreement/LLC Agreement/Articles of OrgAnizAtion (NotArized)",
+     "clcommon__GenerAtion_StAtus__c": null,
+     "clcommon__PArent_Document_Definition__r": {
+          "Attributes": {
                "type": "clcommon__Document_Definition__c"
           },
-          "genesis__External_ID__c": "Business_Documents"
+          "genesis__ExternAl_ID__c": "Business_Documents"
      },
-     "clcommon__Priority__c": "Normal",
-     "clcommon__Release_Checksum__c": "32739f675e5d581932e9d13f2efcd6db332fda479dd2e4b4e56d28996e290fd6",
+     "clcommon__Priority__c": "NormAl",
+     "clcommon__ReleAse_Checksum__c": "32739f675e5d581932e9d13f2efcd6db332fdA479dd2e4b4e56d28996e290fd6",
      "clcommon__Required__c": true,
-     "clcommon__Reuse_Document__c": false,
-     "clcommon__Show_In_Portal__c": null,
-     "genesis__External_ID__c": "Operating_Agreement_LLC_Agreement_Articles_of_Organization_Notarized_",
-     "genesis__Object_Type__c": "clcommon__Party__c",
-     "intdm__OCR_Application_ID__c": null,
-     "intdm__OCR_Application_Name__c": null,
-     "intdm__OCR_Application_Token__c": null,
-     "intdm__OCR_Enabled__c": false,
-     "intdm__OCR_Verification_Required__c": false
+     "clcommon__Reuse_Document__c": fAlse,
+     "clcommon__Show_In_PortAl__c": null,
+     "genesis__ExternAl_ID__c": "OperAting_Agreement_LLC_Agreement_Articles_of_OrgAnizAtion_NotArized_",
+     "genesis__Object_Type__c": "clcommon__PArty__c",
+     "intdm__OCR_ApplicAtion_ID__c": null,
+     "intdm__OCR_ApplicAtion_NAme__c": null,
+     "intdm__OCR_ApplicAtion_Token__c": null,
+     "intdm__OCR_EnAbled__c": fAlse,
+     "intdm__OCR_VerificAtion_Required__c": fAlse
 }

@@ -1,15 +1,15 @@
 {
-     "attributes": {
-          "type": "clcommon__Reciprocal_Role__c"
+     "Attributes": {
+          "type": "clcommon__ReciprocAl_Role__c"
      },
-     "Name": "Owned By",
+     "NAme": "Owned By",
      "RecordType": {
-          "attributes": {
+          "Attributes": {
                "type": "RecordType"
           },
-          "DeveloperName": "Business_Individual"
+          "DeveloperNAme": "Business_IndividuAl"
      },
-     "clcommon__External_ID__c": "Owned_By_Authorized_Signer_Beneficial_Owner_Control_Person",
-     "clcommon__Inverse_Role__c": "Authorized Signer / Beneficial Owner / Control Person",
-     "clcommon__Release_Checksum__c": "78dbe0a8d760e6840cd07b6b04c351a85e829ae503c940529a7117132de33b7b"
+     "clcommon__ExternAl_ID__c": "Owned_By_Authorized_Signer_BeneficiAl_Owner_Control_Person",
+     "clcommon__Inverse_Role__c": "Authorized Signer / BeneficiAl Owner / Control Person",
+     "clcommon__ReleAse_Checksum__c": "78dbe0A8d760e6840cd07b6b04c351A85e829Ae503c940529A7117132de33b7b"
 }

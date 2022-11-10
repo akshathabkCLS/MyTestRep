@@ -1,19 +1,19 @@
 {
-     "attributes": {
-          "type": "clcommon__Party_Type__c"
+     "Attributes": {
+          "type": "clcommon__PArty_Type__c"
      },
-     "Name": "AUTHORIZED SIGNER",
-     "clcommon__External_ID__c": "AUTHORIZED_SIGNER",
-     "clcommon__External_Party_Type__c": null,
-     "clcommon__Notice_of_Credit_Decision__c": false,
-     "clcommon__Party_Type_Code__c": null,
-     "clcommon__Reciprocal_Role__r": {
-          "attributes": {
-               "type": "clcommon__Reciprocal_Role__c"
+     "NAme": "AUTHORIZED SIGNER",
+     "clcommon__ExternAl_ID__c": "AUTHORIZED_SIGNER",
+     "clcommon__ExternAl_PArty_Type__c": null,
+     "clcommon__Notice_of_Credit_Decision__c": fAlse,
+     "clcommon__PArty_Type_Code__c": null,
+     "clcommon__ReciprocAl_Role__r": {
+          "Attributes": {
+               "type": "clcommon__ReciprocAl_Role__c"
           },
-          "clcommon__External_ID__c": "Signed_By_Authorized_Signer"
+          "clcommon__ExternAl_ID__c": "Signed_By_Authorized_Signer"
      },
-     "clcommon__Related_Business_Entity__c": false,
-     "clcommon__Related_Individual__c": false,
-     "clcommon__Release_Checksum__c": "9aa3707ce9090425f9873611a282858dfc4badbc763b7f786af85349ac907d8b"
+     "clcommon__RelAted_Business_Entity__c": fAlse,
+     "clcommon__RelAted_IndividuAl__c": fAlse,
+     "clcommon__ReleAse_Checksum__c": "9AA3707ce9090425f9873611A282858dfc4bAdbc763b7f786Af85349Ac907d8b"
 }

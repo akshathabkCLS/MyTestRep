@@ -1,16 +1,16 @@
 {
-     "attributes": {
-          "type": "clcommon__Asset_Class__c"
+     "Attributes": {
+          "type": "clcommon__Asset_ClAss__c"
      },
-     "Name": "Account Opening",
-     "clcommon__Asset_Category__c": null,
-     "clcommon__Asset_Class_API_Name__c": null,
-     "clcommon__External_ID__c": "Account_Opening",
-     "clcommon__Release_Checksum__c": "d24f165ac696fbd784110c5f9326248e68827eae99a931e3b82f85ea027df22d",
+     "NAme":  "Account Opening",
+     "clcommon__Asset_CAtegory__c": null,
+     "clcommon__Asset_ClAss_API_NAme__c": null,
+     "clcommon__ExternAl_ID__c": "Account_Opening",
+     "clcommon__ReleAse_Checksum__c": "d24f165Ac696fbd784110c5f9326248e68827eAe99A931e3b82f85eA027df22d",
      "genesis__UUX_Customer__c": true,
-     "oao__Active_Product_Type__c": false,
-     "oao__Multiselect__c": false,
-     "oao__Number_of_Products__c": null,
-     "oao__Product_Image__c": null,
-     "oao__Received_From_Gro__c": false
+     "oAo__Active_Product_Type__c": fAlse,
+     "oAo__Multiselect__c": fAlse,
+     "oAo__Number_of_Products__c": null,
+     "oAo__Product_ImAge__c": null,
+     "oAo__Received_From_Gro__c": fAlse
 }

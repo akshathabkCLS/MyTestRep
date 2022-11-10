@@ -1,139 +1,139 @@
 {
-     "attributes": {
+     "Attributes": {
           "type": "clcommon__Rule__c"
      },
-     "Name": "Certificate of Good Standing Rule",
+     "NAme": "CertificAte of Good StAnding Rule",
      "clcommon__Document_Definition__r": {
-          "attributes": {
+          "Attributes": {
                "type": "clcommon__Document_Definition__c"
           },
-          "genesis__External_ID__c": "Certificate_of_Good_Standing"
+          "genesis__ExternAl_ID__c": "CertificAte_of_Good_StAnding"
      },
-     "clcommon__Enabled__c": true,
-     "clcommon__External_ID__c": "Certificate_of_Good_Standing_Rule",
-     "clcommon__Object_Type__c": "clcommon__Party__c",
-     "clcommon__Parent_Record_Id__c": null,
-     "clcommon__Parent_Rule__r": null,
-     "clcommon__Release_Checksum__c": "516bea1268d24b6e56ff12079e71a4b55677b0f46227a4bde1a1b8207d20b8cb",
+     "clcommon__EnAbled__c": true,
+     "clcommon__ExternAl_ID__c": "CertificAte_of_Good_StAnding_Rule",
+     "clcommon__Object_Type__c": "clcommon__PArty__c",
+     "clcommon__PArent_Record_Id__c": null,
+     "clcommon__PArent_Rule__r": null,
+     "clcommon__ReleAse_Checksum__c": "516beA1268d24b6e56ff12079e71A4b55677b0f46227A4bde1A1b8207d20b8cb",
      "clcommon__Rule_Json__c": {
-          "validationClassName": "DocumentDefinitionPreSaveValidation",
-          "successMessage": "Rule Evaluation Passed for rule : Certificate of Good Standing Rule",
+          "vAlidAtionClAssNAme": "DocumentDefinitionPreSAveVAlidAtion",
+          "successMessAge": "Rule EvAluAtion PAssed for rule : CertificAte of Good StAnding Rule",
           "successActions": [
                {
                     "type": "Apex",
                     "priority": null,
-                    "apexClassName": "genesis.DocumentCategoryGenerateAction",
-                    "additionalParams": "{\"Action type\":\"Success\"}",
-                    "actionName": "Action1"
+                    "ApexClAssNAme": "genesis.DocumentCAtegoryGenerAteAction",
+                    "AdditionAlPArAms": "{\"Action type\":\"Success\"}",
+                    "ActionNAme": "Action1"
                }
           ],
-          "sObjectName": "clcommon__Document_Definition__c",
-          "saveRuleClass": null,
-          "ruleName": "Certificate of Good Standing Rule",
+          "sObjectNAme": "clcommon__Document_Definition__c",
+          "sAveRuleClAss": null,
+          "ruleNAme": "CertificAte of Good StAnding Rule",
           "priority": 3,
-          "parentRuleID": null,
-          "parentRecordId": "a1S4x000001Pdy3EAC",
-          "objectType": "clcommon__Party__c",
-          "failureMessage": "Rule Evaluation Failed for rule : Certificate of Good Standing Rule",
-          "failureActions": [
+          "pArentRuleID": null,
+          "pArentRecordId": "A1S4x000001Pdy3EAC",
+          "objectType": "clcommon__PArty__c",
+          "fAilureMessAge": "Rule EvAluAtion FAiled for rule : CertificAte of Good StAnding Rule",
+          "fAilureActions": [
                {
                     "type": "Apex",
                     "priority": null,
-                    "apexClassName": "genesis.DocumentCategoryGenerateAction",
-                    "additionalParams": "{\"Action type\":\"Failure\"}",
-                    "actionName": "Action2"
+                    "ApexClAssNAme": "genesis.DocumentCAtegoryGenerAteAction",
+                    "AdditionAlPArAms": "{\"Action type\":\"FAilure\"}",
+                    "ActionNAme": "Action2"
                }
           ],
-          "externalId": "Certificate_of_Good_Standing_Rule",
+          "externAlId": "CertificAte_of_Good_StAnding_Rule",
           "executeActions": null,
-          "evaluationExpression": "$1&&$2&&$3&&$4&&$5",
-          "enabled": null,
-          "criteria": [
+          "evAluAtionExpression": "$1&&$2&&$3&&$4&&$5",
+          "enAbled": null,
+          "criteriA": [
                {
                     "type": "Expression",
                     "sequence": "$1",
-                    "relatedObject": "clcommon__Party__c",
-                    "minimumValue": "",
-                    "maximumValue": "",
-                    "matchingValue": "Package",
-                    "matchingType": "==",
+                    "relAtedObject": "clcommon__PArty__c",
+                    "minimumVAlue": "",
+                    "mAximumVAlue": "",
+                    "mAtchingVAlue": "PAckAge",
+                    "mAtchingType": "==",
                     "fieldType": "STRING",
-                    "fieldName": "Name",
-                    "fieldAPIName": "genesis__application__r.RecordType.name",
-                    "criterionName": null,
-                    "apexClassName": null,
-                    "additionalParams": null
+                    "fieldNAme": "NAme",
+                    "fieldAPINAme": "genesis__ApplicAtion__r.RecordType.nAme",
+                    "criterionNAme": null,
+                    "ApexClAssNAme": null,
+                    "AdditionAlPArAms": null
                },
                {
                     "type": "Expression",
                     "sequence": "$2",
-                    "relatedObject": "clcommon__Party__c",
-                    "minimumValue": "",
-                    "maximumValue": "",
-                    "matchingValue": "Business Account Opening Package",
-                    "matchingType": "==",
+                    "relAtedObject": "clcommon__PArty__c",
+                    "minimumVAlue": "",
+                    "mAximumVAlue": "",
+                    "mAtchingVAlue": "Business Account Opening PAckAge",
+                    "mAtchingType": "==",
                     "fieldType": "STRING",
-                    "fieldName": "Product Name",
-                    "fieldAPIName": "genesis__application__r.genesis__cl_product__r.clcommon__product_name__c",
-                    "criterionName": null,
-                    "apexClassName": null,
-                    "additionalParams": null
+                    "fieldNAme": "Product NAme",
+                    "fieldAPINAme": "genesis__ApplicAtion__r.genesis__cl_product__r.clcommon__product_nAme__c",
+                    "criterionNAme": null,
+                    "ApexClAssNAme": null,
+                    "AdditionAlPArAms": null
                },
                {
                     "type": "Expression",
                     "sequence": "$3",
-                    "relatedObject": "clcommon__Party__c",
-                    "minimumValue": "",
-                    "maximumValue": "",
-                    "matchingValue": "Corporation",
-                    "matchingType": "==",
+                    "relAtedObject": "clcommon__PArty__c",
+                    "minimumVAlue": "",
+                    "mAximumVAlue": "",
+                    "mAtchingVAlue": "CorporAtion",
+                    "mAtchingType": "==",
                     "fieldType": "PICKLIST",
-                    "fieldName": "Business Category",
-                    "fieldAPIName": "genesis__application__r.genesis__account__r.oao__business_category__c",
-                    "criterionName": null,
-                    "apexClassName": null,
-                    "additionalParams": null
+                    "fieldNAme": "Business CAtegory",
+                    "fieldAPINAme": "genesis__ApplicAtion__r.genesis__Account__r.oAo__business_cAtegory__c",
+                    "criterionNAme": null,
+                    "ApexClAssNAme": null,
+                    "AdditionAlPArAms": null
                },
                {
                     "type": "Expression",
                     "sequence": "$4",
-                    "relatedObject": "clcommon__Party__c",
-                    "minimumValue": "",
-                    "maximumValue": "",
-                    "matchingValue": "BUSINESS",
-                    "matchingType": "==",
+                    "relAtedObject": "clcommon__PArty__c",
+                    "minimumVAlue": "",
+                    "mAximumVAlue": "",
+                    "mAtchingVAlue": "BUSINESS",
+                    "mAtchingType": "==",
                     "fieldType": "STRING",
-                    "fieldName": "Party Type Name",
-                    "fieldAPIName": "clcommon__type__r.name",
-                    "criterionName": null,
-                    "apexClassName": null,
-                    "additionalParams": null
+                    "fieldNAme": "PArty Type NAme",
+                    "fieldAPINAme": "clcommon__type__r.nAme",
+                    "criterionNAme": null,
+                    "ApexClAssNAme": null,
+                    "AdditionAlPArAms": null
                },
                {
                     "type": "Expression",
                     "sequence": "$5",
-                    "relatedObject": "clcommon__Party__c",
-                    "minimumValue": "",
-                    "maximumValue": "",
-                    "matchingValue": "S Corporation,C Corporation,Non-Profit Corporation",
-                    "matchingType": "IN",
+                    "relAtedObject": "clcommon__PArty__c",
+                    "minimumVAlue": "",
+                    "mAximumVAlue": "",
+                    "mAtchingVAlue": "S CorporAtion,C CorporAtion,Non-Profit CorporAtion",
+                    "mAtchingType": "IN",
                     "fieldType": "PICKLIST",
-                    "fieldName": "Business Sub Category",
-                    "fieldAPIName": "genesis__application__r.genesis__account__r.oao__business_sub_category_type__c",
-                    "criterionName": null,
-                    "apexClassName": null,
-                    "additionalParams": null
+                    "fieldNAme": "Business Sub CAtegory",
+                    "fieldAPINAme": "genesis__ApplicAtion__r.genesis__Account__r.oAo__business_sub_cAtegory_type__c",
+                    "criterionNAme": null,
+                    "ApexClAssNAme": null,
+                    "AdditionAlPArAms": null
                }
           ],
-          "category": "DocumentDefinition",
-          "abortQueueExecutionOnFailure": null
+          "cAtegory": "DocumentDefinition",
+          "AbortQueueExecutionOnFAilure": null
      },
      "clcommon__Rule_Priority__c": 3,
      "clcommon__Rule_Set__r": {
-          "attributes": {
+          "Attributes": {
                "type": "clcommon__Rule_Set__c"
           },
-          "clcommon__External_ID__c": "DocumentDefinition"
+          "clcommon__ExternAl_ID__c": "DocumentDefinition"
      },
-     "genesis__Department_Members__r": null
+     "genesis__DepArtment_Members__r": null
 }

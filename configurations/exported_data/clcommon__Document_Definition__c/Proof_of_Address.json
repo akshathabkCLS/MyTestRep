@@ -1,28 +1,28 @@
 {
-     "attributes": {
+     "Attributes": {
           "type": "clcommon__Document_Definition__c"
      },
-     "Name": "Proof of Address",
+     "NAme": "Proof of Address",
      "clcommon__Active__c": true,
-     "clcommon__Child_Object_API_Name__c": null,
+     "clcommon__Child_Object_API_NAme__c": null,
      "clcommon__Description__c": "Document for Proof of Address.",
-     "clcommon__Generation_Status__c": null,
-     "clcommon__Parent_Document_Definition__r": {
-          "attributes": {
+     "clcommon__GenerAtion_StAtus__c": null,
+     "clcommon__PArent_Document_Definition__r": {
+          "Attributes": {
                "type": "clcommon__Document_Definition__c"
           },
-          "genesis__External_ID__c": "Identification_Documents"
+          "genesis__ExternAl_ID__c": "IdentificAtion_Documents"
      },
-     "clcommon__Priority__c": "Normal",
-     "clcommon__Release_Checksum__c": "f9df034472b3c6b19d6a9b47733f88d9a7d659161b736a6dc1f30d2f6bca3e7f",
+     "clcommon__Priority__c": "NormAl",
+     "clcommon__ReleAse_Checksum__c": "f9df034472b3c6b19d6A9b47733f88d9A7d659161b736A6dc1f30d2f6bcA3e7f",
      "clcommon__Required__c": true,
-     "clcommon__Reuse_Document__c": false,
-     "clcommon__Show_In_Portal__c": null,
-     "genesis__External_ID__c": "Proof_of_Address",
-     "genesis__Object_Type__c": "clcommon__Party__c",
-     "intdm__OCR_Application_ID__c": null,
-     "intdm__OCR_Application_Name__c": null,
-     "intdm__OCR_Application_Token__c": null,
-     "intdm__OCR_Enabled__c": false,
-     "intdm__OCR_Verification_Required__c": false
+     "clcommon__Reuse_Document__c": fAlse,
+     "clcommon__Show_In_PortAl__c": null,
+     "genesis__ExternAl_ID__c": "Proof_of_Address",
+     "genesis__Object_Type__c": "clcommon__PArty__c",
+     "intdm__OCR_ApplicAtion_ID__c": null,
+     "intdm__OCR_ApplicAtion_NAme__c": null,
+     "intdm__OCR_ApplicAtion_Token__c": null,
+     "intdm__OCR_EnAbled__c": fAlse,
+     "intdm__OCR_VerificAtion_Required__c": fAlse
 }

@@ -1,14 +1,14 @@
 {
-     "attributes": {
-          "type": "intframework__Integration_API_Type__c"
+     "Attributes": {
+          "type": "intfrAmework__IntegrAtion_API_Type__c"
      },
-     "Name": "Business Instant Id",
-     "intframework__External_Id__c": "Business_Instant_Id",
-     "intframework__Integration_Family__r": {
-          "attributes": {
-               "type": "intframework__Integration_Family__c"
+     "NAme": "Business InstAnt Id",
+     "intfrAmework__ExternAl_Id__c": "Business_InstAnt_Id",
+     "intfrAmework__IntegrAtion_FAmily__r": {
+          "Attributes": {
+               "type": "intfrAmework__IntegrAtion_FAmily__c"
           },
-          "intframework__External_Id__c": "KYB"
+          "intfrAmework__ExternAl_Id__c": "KYB"
      },
-     "intframework__Release_Checksum__c": "65395b0c2aaac68b0085c0df7f56a2dbb4a7d36b6583deecf11b523f0866c89a"
+     "intfrAmework__ReleAse_Checksum__c": "65395b0c2AAAc68b0085c0df7f56A2dbb4A7d36b6583deecf11b523f0866c89A"
 }

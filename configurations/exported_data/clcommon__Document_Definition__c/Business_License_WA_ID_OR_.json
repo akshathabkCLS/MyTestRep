@@ -1,28 +1,28 @@
 {
-     "attributes": {
+     "Attributes": {
           "type": "clcommon__Document_Definition__c"
      },
-     "Name": "Business License (WA, ID, OR)",
+     "NAme": "Business License (WA, ID, OR)",
      "clcommon__Active__c": true,
-     "clcommon__Child_Object_API_Name__c": null,
+     "clcommon__Child_Object_API_NAme__c": null,
      "clcommon__Description__c": "Business License (WA, ID, OR)",
-     "clcommon__Generation_Status__c": null,
-     "clcommon__Parent_Document_Definition__r": {
-          "attributes": {
+     "clcommon__GenerAtion_StAtus__c": null,
+     "clcommon__PArent_Document_Definition__r": {
+          "Attributes": {
                "type": "clcommon__Document_Definition__c"
           },
-          "genesis__External_ID__c": "Business_Documents"
+          "genesis__ExternAl_ID__c": "Business_Documents"
      },
      "clcommon__Priority__c": null,
-     "clcommon__Release_Checksum__c": "6980de376c261f06107c0ebbb930b286f3d73d33e219378d03da308c253b02c1",
+     "clcommon__ReleAse_Checksum__c": "6980de376c261f06107c0ebbb930b286f3d73d33e219378d03dA308c253b02c1",
      "clcommon__Required__c": true,
      "clcommon__Reuse_Document__c": true,
-     "clcommon__Show_In_Portal__c": "UPLOAD_VIA_PORTAL",
-     "genesis__External_ID__c": "Business_License_WA_ID_OR_",
-     "genesis__Object_Type__c": "clcommon__Party__c",
-     "intdm__OCR_Application_ID__c": null,
-     "intdm__OCR_Application_Name__c": null,
-     "intdm__OCR_Application_Token__c": null,
-     "intdm__OCR_Enabled__c": false,
-     "intdm__OCR_Verification_Required__c": false
+     "clcommon__Show_In_PortAl__c": "UPLOAD_VIA_PORTAL",
+     "genesis__ExternAl_ID__c": "Business_License_WA_ID_OR_",
+     "genesis__Object_Type__c": "clcommon__PArty__c",
+     "intdm__OCR_ApplicAtion_ID__c": null,
+     "intdm__OCR_ApplicAtion_NAme__c": null,
+     "intdm__OCR_ApplicAtion_Token__c": null,
+     "intdm__OCR_EnAbled__c": fAlse,
+     "intdm__OCR_VerificAtion_Required__c": fAlse
 }

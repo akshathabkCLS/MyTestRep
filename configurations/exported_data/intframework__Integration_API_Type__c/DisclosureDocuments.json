@@ -1,14 +1,14 @@
 {
-     "attributes": {
-          "type": "intframework__Integration_API_Type__c"
+     "Attributes": {
+          "type": "intfrAmework__IntegrAtion_API_Type__c"
      },
-     "Name": "DisclosureDocuments",
-     "intframework__External_Id__c": "DisclosureDocuments",
-     "intframework__Integration_Family__r": {
-          "attributes": {
-               "type": "intframework__Integration_Family__c"
+     "NAme": "DisclosureDocuments",
+     "intfrAmework__ExternAl_Id__c": "DisclosureDocuments",
+     "intfrAmework__IntegrAtion_FAmily__r": {
+          "Attributes": {
+               "type": "intfrAmework__IntegrAtion_FAmily__c"
           },
-          "intframework__External_Id__c": "AOGroService"
+          "intfrAmework__ExternAl_Id__c": "AOGroService"
      },
-     "intframework__Release_Checksum__c": "b87a1e519fddcfb305262165de4e9c386608db8a2802103537d28f936b04a4b3"
+     "intfrAmework__ReleAse_Checksum__c": "b87A1e519fddcfb305262165de4e9c386608db8A2802103537d28f936b04A4b3"
 }

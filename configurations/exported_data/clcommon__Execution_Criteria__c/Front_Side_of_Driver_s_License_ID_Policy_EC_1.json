@@ -1,34 +1,34 @@
 {
-     "attributes": {
-          "type": "clcommon__Execution_Criteria__c"
+     "Attributes": {
+          "type": "clcommon__Execution_CriteriA__c"
      },
      "RecordType": {
-          "attributes": {
+          "Attributes": {
                "type": "RecordType"
           },
-          "DeveloperName": "Scorecard"
+          "DeveloperNAme": "ScorecArd"
      },
-     "clcommon__External_ID__c": "Front_Side_of_Driver_s_License_ID_Policy_EC_1",
-     "clcommon__Field_API_Name__c": "clcommon__Category_Name__c",
-     "clcommon__Field_Name__c": "Category Name",
+     "clcommon__ExternAl_ID__c": "Front_Side_of_Driver_s_License_ID_Policy_EC_1",
+     "clcommon__Field_API_NAme__c": "clcommon__CAtegory_NAme__c",
+     "clcommon__Field_NAme__c": "CAtegory NAme",
      "clcommon__Field_Type__c": "STRING",
-     "clcommon__Matching_Type__c": "==",
-     "clcommon__Matching_Value_Dynamic__r": null,
-     "clcommon__Matching_Value__c": "Front Side of Driver's License/ID",
-     "clcommon__Maximum_Value__c": null,
-     "clcommon__Minimum_Value__c": null,
-     "clcommon__Primary_Object_Reference__c": null,
-     "clcommon__Related_Object__c": "clcommon__Document_Category__c",
-     "clcommon__Release_Checksum__c": "76d49f4d54313af6e3e4cb90280ba336f1336638b0637266d7b3f2016223fdc1",
+     "clcommon__MAtching_Type__c": "==",
+     "clcommon__MAtching_VAlue_DynAmic__r": null,
+     "clcommon__MAtching_VAlue__c": "Front Side of Driver's License/ID",
+     "clcommon__MAximum_VAlue__c": null,
+     "clcommon__Minimum_VAlue__c": null,
+     "clcommon__PrimAry_Object_Reference__c": null,
+     "clcommon__RelAted_Object__c": "clcommon__Document_CAtegory__c",
+     "clcommon__ReleAse_Checksum__c": "76d49f4d54313Af6e3e4cb90280bA336f1336638b0637266d7b3f2016223fdc1",
      "clcommon__Sequence__c": 1,
      "genesis__Policy_Condition_Definition_Reference__c": null,
      "genesis__Policy_Condition_Definition__r": {
-          "attributes": {
+          "Attributes": {
                "type": "genesis__Policy_Exception_Definition__c"
           },
-          "genesis__External_ID__c": "Front_Side_of_Driver_s_License_ID_Policy"
+          "genesis__ExternAl_ID__c": "Front_Side_of_Driver_s_License_ID_Policy"
      },
-     "genesis__Scorecard_Object_Reference__c": null,
-     "genesis__Task_Setup_Object_Reference__c": null,
-     "genesis__Task_Setup__r": null
+     "genesis__ScorecArd_Object_Reference__c": null,
+     "genesis__TAsk_Setup_Object_Reference__c": null,
+     "genesis__TAsk_Setup__r": null
 }

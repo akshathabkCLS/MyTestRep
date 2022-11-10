@@ -1,28 +1,28 @@
 {
-     "attributes": {
+     "Attributes": {
           "type": "clcommon__Document_Definition__c"
      },
-     "Name": "Certificate of Good Standing",
+     "NAme": "CertificAte of Good StAnding",
      "clcommon__Active__c": true,
-     "clcommon__Child_Object_API_Name__c": null,
-     "clcommon__Description__c": "Document for Certificate of Good Standing",
-     "clcommon__Generation_Status__c": null,
-     "clcommon__Parent_Document_Definition__r": {
-          "attributes": {
+     "clcommon__Child_Object_API_NAme__c": null,
+     "clcommon__Description__c": "Document for CertificAte of Good StAnding",
+     "clcommon__GenerAtion_StAtus__c": null,
+     "clcommon__PArent_Document_Definition__r": {
+          "Attributes": {
                "type": "clcommon__Document_Definition__c"
           },
-          "genesis__External_ID__c": "Business_Documents"
+          "genesis__ExternAl_ID__c": "Business_Documents"
      },
-     "clcommon__Priority__c": "Normal",
-     "clcommon__Release_Checksum__c": "c801a71871071de7ad45ad765bdb1fdbe5a032e17975a852834b93edcaffe876",
+     "clcommon__Priority__c": "NormAl",
+     "clcommon__ReleAse_Checksum__c": "c801A71871071de7Ad45Ad765bdb1fdbe5A032e17975A852834b93edcAffe876",
      "clcommon__Required__c": true,
-     "clcommon__Reuse_Document__c": false,
-     "clcommon__Show_In_Portal__c": null,
-     "genesis__External_ID__c": "Certificate_of_Good_Standing",
-     "genesis__Object_Type__c": "clcommon__Party__c",
-     "intdm__OCR_Application_ID__c": null,
-     "intdm__OCR_Application_Name__c": null,
-     "intdm__OCR_Application_Token__c": null,
-     "intdm__OCR_Enabled__c": false,
-     "intdm__OCR_Verification_Required__c": false
+     "clcommon__Reuse_Document__c": fAlse,
+     "clcommon__Show_In_PortAl__c": null,
+     "genesis__ExternAl_ID__c": "CertificAte_of_Good_StAnding",
+     "genesis__Object_Type__c": "clcommon__PArty__c",
+     "intdm__OCR_ApplicAtion_ID__c": null,
+     "intdm__OCR_ApplicAtion_NAme__c": null,
+     "intdm__OCR_ApplicAtion_Token__c": null,
+     "intdm__OCR_EnAbled__c": fAlse,
+     "intdm__OCR_VerificAtion_Required__c": fAlse
 }

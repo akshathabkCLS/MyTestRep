@@ -1,58 +1,58 @@
 {
-     "attributes": {
+     "Attributes": {
           "type": "clcommon__Rule__c"
      },
-     "Name": "Does Business Exist",
+     "NAme": "Does Business Exist",
      "clcommon__Document_Definition__r": null,
-     "clcommon__Enabled__c": true,
-     "clcommon__External_ID__c": "Does_Business_Exist",
+     "clcommon__EnAbled__c": true,
+     "clcommon__ExternAl_ID__c": "Does_Business_Exist",
      "clcommon__Object_Type__c": "Account",
-     "clcommon__Parent_Record_Id__c": null,
-     "clcommon__Parent_Rule__r": null,
-     "clcommon__Release_Checksum__c": "6376b8700a74df61bc8e3df186c38fbdff632e02ac5a3d4d257d2fcd69e92409",
+     "clcommon__PArent_Record_Id__c": null,
+     "clcommon__PArent_Rule__r": null,
+     "clcommon__ReleAse_Checksum__c": "6376b8700A74df61bc8e3df186c38fbdff632e02Ac5A3d4d257d2fcd69e92409",
      "clcommon__Rule_Json__c": {
-          "validationClassName": null,
-          "successMessage": "Business exists in core.",
+          "vAlidAtionClAssNAme": null,
+          "successMessAge": "Business exists in core.",
           "successActions": [],
-          "sObjectName": "",
-          "saveRuleClass": null,
-          "ruleName": "Does Business Exist",
+          "sObjectNAme": "",
+          "sAveRuleClAss": null,
+          "ruleNAme": "Does Business Exist",
           "priority": 1,
-          "parentRuleID": null,
-          "parentRecordId": null,
+          "pArentRuleID": null,
+          "pArentRecordId": null,
           "objectType": "Account",
-          "failureMessage": "Business does not exist in core.",
-          "failureActions": [],
-          "externalId": null,
+          "fAilureMessAge": "Business does not exist in core.",
+          "fAilureActions": [],
+          "externAlId": null,
           "executeActions": true,
-          "evaluationExpression": "$1",
-          "enabled": null,
-          "criteria": [
+          "evAluAtionExpression": "$1",
+          "enAbled": null,
+          "criteriA": [
                {
                     "type": "Expression",
                     "sequence": "$1",
-                    "relatedObject": "Account",
-                    "minimumValue": null,
-                    "maximumValue": null,
-                    "matchingValue": "true",
-                    "matchingType": "==",
+                    "relAtedObject": "Account",
+                    "minimumVAlue": null,
+                    "mAximumVAlue": null,
+                    "mAtchingVAlue": "true",
+                    "mAtchingType": "==",
                     "fieldType": "BOOLEAN",
-                    "fieldName": "Does Account exist in core",
-                    "fieldAPIName": "genesis__Business_Information__r.q2adapters__Does_Account_exist_in_core__c",
-                    "criterionName": null,
-                    "apexClassName": null,
-                    "additionalParams": ""
+                    "fieldNAme": "Does Account exist in core",
+                    "fieldAPINAme": "genesis__Business_InformAtion__r.q2AdApters__Does_Account_exist_in_core__c",
+                    "criterionNAme": null,
+                    "ApexClAssNAme": null,
+                    "AdditionAlPArAms": ""
                }
           ],
-          "category": "Coresmen",
-          "abortQueueExecutionOnFailure": true
+          "cAtegory": "Coresmen",
+          "AbortQueueExecutionOnFAilure": true
      },
      "clcommon__Rule_Priority__c": 1,
      "clcommon__Rule_Set__r": {
-          "attributes": {
+          "Attributes": {
                "type": "clcommon__Rule_Set__c"
           },
-          "clcommon__External_ID__c": "Coresmen"
+          "clcommon__ExternAl_ID__c": "Coresmen"
      },
-     "genesis__Department_Members__r": null
+     "genesis__DepArtment_Members__r": null
 }

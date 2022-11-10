@@ -1,15 +1,15 @@
 {
-     "attributes": {
-          "type": "clcommon__Reciprocal_Role__c"
+     "Attributes": {
+          "type": "clcommon__ReciprocAl_Role__c"
      },
-     "Name": "Owned By",
+     "NAme": "Owned By",
      "RecordType": {
-          "attributes": {
+          "Attributes": {
                "type": "RecordType"
           },
-          "DeveloperName": "Business_Individual"
+          "DeveloperNAme": "Business_IndividuAl"
      },
-     "clcommon__External_ID__c": "Owned_By_Primary",
-     "clcommon__Inverse_Role__c": "Primary",
-     "clcommon__Release_Checksum__c": "cd12e28a785784712a119dbf4becdb67bb8152466d3dbc42f657e146c3efa56e"
+     "clcommon__ExternAl_ID__c": "Owned_By_PrimAry",
+     "clcommon__Inverse_Role__c": "PrimAry",
+     "clcommon__ReleAse_Checksum__c": "cd12e28A785784712A119dbf4becdb67bb8152466d3dbc42f657e146c3efA56e"
 }
