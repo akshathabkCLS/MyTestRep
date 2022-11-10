@@ -1,0 +1,104 @@
+{
+     "attributes": {
+          "type": "clcommon__Rule__c"
+     },
+     "Name": "Articles of Formation rule",
+     "clcommon__Document_Definition__r": null,
+     "clcommon__Enabled__c": true,
+     "clcommon__External_ID__c": "Articles_of_Formation_rule",
+     "clcommon__Object_Type__c": "clcommon__Party__c",
+     "clcommon__Parent_Record_Id__c": null,
+     "clcommon__Parent_Rule__r": null,
+     "clcommon__Release_Checksum__c": "a109fd89bd9b2f44fd730ad3cbf0a8f36c05103c1e5bc25b43896fb6997d1e96",
+     "clcommon__Rule_Json__c": {
+          "validationClassName": null,
+          "successMessage": "Rule Evaluation Passed for rule : Articles of Formation rule",
+          "successActions": [
+               {
+                    "type": "Apex",
+                    "priority": null,
+                    "apexClassName": "genesis.PolicyConditionGenerationAction",
+                    "additionalParams": "{\"Action type\":\"Success\"}",
+                    "actionName": "Action1"
+               }
+          ],
+          "sObjectName": "",
+          "saveRuleClass": "genesis.PolicyConditionGenerationRuleManagement",
+          "ruleName": "Articles of Formation rule",
+          "priority": 12,
+          "parentRuleID": null,
+          "parentRecordId": null,
+          "objectType": "clcommon__Party__c",
+          "failureMessage": "Rule Evaluation Failed for rule : Articles of Formation rule",
+          "failureActions": [
+               {
+                    "type": "Apex",
+                    "priority": null,
+                    "apexClassName": "genesis.PolicyConditionGenerationAction",
+                    "additionalParams": "{\"Action type\":\"Failure\"}",
+                    "actionName": "Action2"
+               }
+          ],
+          "externalId": "RB_Articles of Formation/Incorporation_rule",
+          "executeActions": null,
+          "evaluationExpression": "$1&&$2&&$3",
+          "enabled": null,
+          "criteria": [
+               {
+                    "type": "Expression",
+                    "sequence": "$1",
+                    "relatedObject": "clcommon__Party__c",
+                    "minimumValue": "",
+                    "maximumValue": "",
+                    "matchingValue": "Business Account Opening Package",
+                    "matchingType": "==",
+                    "fieldType": "STRING",
+                    "fieldName": "Product Name",
+                    "fieldAPIName": "genesis__application__r.genesis__cl_product__r.clcommon__product_name__c",
+                    "criterionName": null,
+                    "apexClassName": null,
+                    "additionalParams": null
+               },
+               {
+                    "type": "Expression",
+                    "sequence": "$2",
+                    "relatedObject": "clcommon__Party__c",
+                    "minimumValue": "",
+                    "maximumValue": "",
+                    "matchingValue": "Non-Profit Corporation",
+                    "matchingType": "==",
+                    "fieldType": "PICKLIST",
+                    "fieldName": "Business Category",
+                    "fieldAPIName": "clcommon__account__r.oao__business_category__c",
+                    "criterionName": null,
+                    "apexClassName": null,
+                    "additionalParams": null
+               },
+               {
+                    "type": "Expression",
+                    "sequence": "$3",
+                    "relatedObject": "clcommon__Party__c",
+                    "minimumValue": "",
+                    "maximumValue": "",
+                    "matchingValue": "BUSINESS",
+                    "matchingType": "==",
+                    "fieldType": "STRING",
+                    "fieldName": "Party Type Name",
+                    "fieldAPIName": "clcommon__type__r.name",
+                    "criterionName": null,
+                    "apexClassName": null,
+                    "additionalParams": null
+               }
+          ],
+          "category": "PolicyConditionGenerationConfig",
+          "abortQueueExecutionOnFailure": null
+     },
+     "clcommon__Rule_Priority__c": 12,
+     "clcommon__Rule_Set__r": {
+          "attributes": {
+               "type": "clcommon__Rule_Set__c"
+          },
+          "clcommon__External_ID__c": "Policy_Condition_Generation_Config"
+     },
+     "genesis__Department_Members__r": null
+}
